@@ -16,7 +16,7 @@ body {
     justify-content: center;
     grid-gap: 15px;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     margin-bottom: 30px;
 }
 
@@ -51,11 +51,11 @@ img {
     justify-content: center;
     align-items: center;
     grid-gap: 60px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     margin-bottom: 30px;
 }
 
-.item1 {
+.wrapper2 div:nth-child(1) {
     grid-column-start: 2;
 }
 
