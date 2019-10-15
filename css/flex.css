@@ -18,14 +18,39 @@ header {
 
 img {
     width: 100%;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 11px;
+    margin: 0px 0px;
+}
+
+h2 {
+    margin: 0px 0px;
 }
 
 #item1 {
+    margin: 30px 30px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 48%;
 }
 
 #item1 div {
     width: 49%;
+    text-align: center;
+}
+
+#item2 {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#item2 div {
+    margin-right: 5%;
+    width: 15%;
+    text-align: center;
 }
